@@ -1,6 +1,6 @@
 # FlexInsights
 
-A Reviews Dashboard for ![Flex Living](https://theflex.global/).
+A Reviews Dashboard for [Flex Living](https://theflex.global/).
 
 ![Flex Living Logo](https://i.ibb.co/7NgQf8LS/flex-living-logo1.jpg)
 
