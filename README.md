@@ -39,7 +39,7 @@ FlexInsights provides a comprehensive set of features for review management:
     - Identify key performance trends through visualizations.
     - Toggle reviews for public display.
 3.  **Review Display Page:** Replicates the Flex Living website property details layout, displaying only approved guest reviews.
-4.  **Google Reviews Exploration:** Investigates the feasibility of integrating Google Reviews (e.g., via Places API). _[Include your specific findings here, e.g., "Determined basic fetching is possible with API key and Place ID, but not fully implemented due to sandbox constraints."]_
+4.  **Google Reviews Exploration:** Investigates the feasibility of integrating Google Reviews (e.g., via Places API).
 5.  **Data Normalization:** Processes raw review data, extracting and organizing key information like categories, ratings, and listing details.
 6.  **Persistent Storage:** Utilizes a local SQLite database to store and persist review data, including manager-approved statuses.
 7.  **Authentication for Mock API:** The `/api/reviews/hostaway` endpoint requires specific `X-Hostaway-Account-ID` and `X-Hostaway-API-Key` headers for access.
