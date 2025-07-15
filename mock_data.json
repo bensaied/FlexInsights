@@ -1,0 +1,123 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "id": 7453,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Shane and family are wonderful! Would definitely host again :)",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 10 }
+      ],
+      "submittedAt": "2020-08-21 22:45:14",
+      "guestName": "Shane Finkelstein",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7454,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 4.5,
+      "publicReview": "Great stay, very clean and modern.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 8 },
+        { "category": "respect_house_rules", "rating": 9 }
+      ],
+      "submittedAt": "2020-09-15 10:30:00",
+      "guestName": "Emma Watson",
+      "listingName": "3B N2 B - 15 Camden Towers"
+    },
+    {
+      "id": 7455,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 3.0,
+      "publicReview": "The location was excellent, but the Wi-Fi was unreliable.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 7 },
+        { "category": "communication", "rating": 7 },
+        { "category": "internet_speed", "rating": 4 }
+      ],
+      "submittedAt": "2021-01-05 14:00:00",
+      "guestName": "Liam Johnson",
+      "listingName": "1A S3 C - 7 Soho Residences"
+    },
+    {
+      "id": 7456,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Liam was a respectful guest, no issues at all.",
+      "reviewCategory": [
+        { "category": "respect_house_rules", "rating": 10 },
+        { "category": "cleanliness", "rating": 9 }
+      ],
+      "submittedAt": "2021-01-07 09:10:00",
+      "guestName": "Liam Johnson",
+      "listingName": "1A S3 C - 7 Soho Residences"
+    },
+    {
+      "id": 7457,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 5.0,
+      "publicReview": "Absolutely perfect stay! Highly recommend this property.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "accuracy_of_listing", "rating": 10 },
+        { "category": "location", "rating": 10 }
+      ],
+      "submittedAt": "2021-03-20 18:00:00",
+      "guestName": "Olivia Brown",
+      "listingName": "4C W4 D - 22 Westminster Lofts"
+    },
+    {
+      "id": 7458,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 2.0,
+      "publicReview": "The heating wasn't working properly, and it was quite cold.",
+      "reviewCategory": [
+        { "category": "amenities", "rating": 3 },
+        { "category": "communication", "rating": 5 }
+      ],
+      "submittedAt": "2021-04-10 11:45:00",
+      "guestName": "Noah Davis",
+      "listingName": "5D E5 E - 10 Greenwich Riverside"
+    },
+    {
+      "id": 7459,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 4.0,
+      "publicReview": "Good value for money. Minor issue with check-in, but quickly resolved.",
+      "reviewCategory": [
+        { "category": "value", "rating": 8 },
+        { "category": "check_in_process", "rating": 6 },
+        { "category": "communication", "rating": 9 }
+      ],
+      "submittedAt": "2021-05-01 09:00:00",
+      "guestName": "Sophia Garcia",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    },
+    {
+      "id": 7460,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Sophia was an excellent guest, communication was superb.",
+      "reviewCategory": [
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 10 }
+      ],
+      "submittedAt": "2021-05-03 16:20:00",
+      "guestName": "Sophia Garcia",
+      "listingName": "2B N1 A - 29 Shoreditch Heights"
+    }
+  ]
+}
