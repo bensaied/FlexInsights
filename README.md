@@ -2,7 +2,7 @@
 
 A Reviews Dashboard for Flex Living.
 
-![Flex Living Logo](https://i.ibb.co/7NgQf8LS/flex-living-logo1.jpg) ---
+![Flex Living Logo](https://i.ibb.co/7NgQf8LS/flex-living-logo1.jpg)
 
 ## 🧰 Tech Stack
 
