@@ -49,7 +49,7 @@ FlexInsights provides a comprehensive set of features for review management:
 1.  **Clone the repository**:
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/bensaied/FlexInsights
     cd FlexInsights
     ```
 
