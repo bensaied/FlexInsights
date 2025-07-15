@@ -42,8 +42,8 @@ def get_hostaway_reviews():
 # Dash Manager Dashboard Layout
 app.layout = html.Div(className='container mx-auto p-4 bg-gray-100', children=[
 
-    # Logo and Title 
-    html.Div(className='mb-8', style={'textAlign': 'center'}, children=[
+    # Logo and Title
+    html.Div(className='text-center', children=[
         html.Div(children=[
             html.Img(
                 src='/static/images/flex_living_logo.png',
@@ -52,7 +52,8 @@ app.layout = html.Div(className='container mx-auto p-4 bg-gray-100', children=[
                     'objectFit': 'contain',
                     'display': 'block',
                     'marginLeft': 'auto',
-                    'marginRight': 'auto'
+                    'marginRight': 'auto',
+                    'marginBottom': '2px' 
                 },
                 alt='Flex Living Logo'
             )
@@ -62,7 +63,7 @@ app.layout = html.Div(className='container mx-auto p-4 bg-gray-100', children=[
 
 
     # Filters container
-    html.Div(className='mb-8', children=[
+    html.Div(className='mb-8 mt-8', children=[
         dcc.Dropdown(
             id='listing-filter',
             options=[{'label': 'All Listings', 'value': 'all'}] + [
@@ -85,7 +86,7 @@ app.layout = html.Div(className='container mx-auto p-4 bg-gray-100', children=[
     ]),
 
     # Table with spacing
-    html.Div(style={'marginTop': '150px'}, children=[
+    html.Div(style={'marginTop': '50px'}, children=[ 
         dash_table.DataTable(
             id='reviews-table',
             columns=[
@@ -123,7 +124,6 @@ app.layout = html.Div(className='container mx-auto p-4 bg-gray-100', children=[
     html.H2('Performance Trends', className='text-2xl font-bold mt-6 mb-4 text-[#335755] text-center'),
     dcc.Graph(id='rating-trend', className='bg-white rounded-lg shadow p-4')
 ])
-
 
 
 # Dash callbacks
