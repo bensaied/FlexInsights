@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ listing }} Reviews</title>
+    <link rel="stylesheet" href="/static/css/tailwind.css" />
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto p-4">
+      <h1 class="text-3xl font-bold mb-4">{{ listing }}</h1>
+      <div class="grid grid-cols-1 gap-4">
+        {% for review in reviews %}
+        <div class="card">
+          <p class="guest-name">{{ review.guestName }}</p>
+          <p class="review-text">{{ review.publicReview }}</p>
+          <p class="date">Posted on {{ review.submittedAt }}</p>
+          <div class="mt-2">
+            {% for category in review.reviewCategory %}
+            <p class="category">
+              {{ category.category.capitalize() }}: {{ category.rating }}/10
+            </p>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </body>
+</html>
