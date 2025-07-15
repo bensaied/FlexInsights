@@ -12,7 +12,7 @@ A Reviews Dashboard for Flex Living.
 
 **Database:** SQLite
 
----
+
 
 ## 🚀 Use Cases
 
@@ -23,7 +23,7 @@ FlexInsights supports practical applications for property managers to understand
 - **Review Curation:** Select and approve specific guest reviews to be showcased on the public Flex Living website.
 - **Data Normalization:** Automated parsing and normalization of review data for consistent analysis.
 
----
+
 
 ## 🔥 Features
 
@@ -40,7 +40,7 @@ FlexInsights provides a comprehensive set of features for review management:
 6.  **Persistent Storage:** Utilizes a local SQLite database to store and persist review data, including manager-approved statuses.
 7.  **Authentication for Mock API:** The `/api/reviews/hostaway` endpoint requires specific `X-Hostaway-Account-ID` and `X-Hostaway-API-Key` headers for access.
 
----
+
 
 ## 💻 Installation
 
@@ -71,7 +71,7 @@ FlexInsights provides a comprehensive set of features for review management:
     python app.py
     ```
 
----
+
 
 ## ▶️ Usage
 
@@ -79,7 +79,7 @@ FlexInsights provides a comprehensive set of features for review management:
 - **Public Reviews Page**: View selected public reviews for a specific listing at `http://localhost:5000/reviews/<listing_name>`.
   - _Example_: `http://localhost:5000/reviews/2B%20N1%20A%20-%2029%20Shoreditch%20Heights`
 
----
+
 
 ## 🧪 API & Data Details
 
@@ -95,17 +95,17 @@ FlexInsights provides a comprehensive set of features for review management:
     ```
 - **Local Database**: Uses `reviews.db` to store and manage review data, including the approval status.
 
----
+
 
 ## 📝 Authors
 
-- Github: [@bensaied](https://www.github.com/bensaied) ---
+- Github: [@bensaied](https://www.github.com/bensaied) 
 
 ## 💝 Support
 
 If you find this project helpful, please consider leaving a ⭐️!  
-If you are interested or have questions, contact us at **ben.saied@proton.me** ---
+If you are interested or have questions, contact us at **ben.saied@proton.me**
 
 ## 🔗 Links
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bensaied/) ```
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bensaied/) 
