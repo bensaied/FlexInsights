@@ -1,6 +1,3 @@
-Understood. Here's the updated `README.md` with the API credentials removed from the public display section, while still acknowledging the need for authentication for the mock API endpoint.
-
-````markdown
 # FlexInsights Setup Instructions
 
 ## Overview
@@ -70,4 +67,3 @@ FlexInsights is a Reviews Dashboard for Flex Living, designed to help managers a
 - **Manager Dashboard**: Built with **Dash** for an interactive and dynamic user interface. It allows filtering by listing and review category, and displays performance trends through a Plotly graph. Managers can mark reviews for public display directly within the table.
 - **Review Display Page**: Replicates the Flex Living property details layout and conditionally displays reviews marked as 'approved' by the manager.
 - **Styling**: Utilizes **Tailwind CSS** for a clean, modern, and responsive design, included via a CDN.
-````
