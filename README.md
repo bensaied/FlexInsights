@@ -1,4 +1,4 @@
-# FlexInsights
+# FlexInsights.
 
 A Reviews Dashboard for [Flex Living](https://theflex.global/).
 
